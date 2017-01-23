@@ -2,22 +2,18 @@
   "name": "test_ci_jenkins_node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "engines": {
+    "node": "6.4.0",
+    "npm": "3.10.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/julio-louzada/test_ci_jenkins_node.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/julio-louzada/test_ci_jenkins_node/issues"
-  },
-  "homepage": "https://github.com/julio-louzada/test_ci_jenkins_node#readme",
   "dependencies": {
     "express": "^4.14.0"
   },
