@@ -1,2 +1,2 @@
-FROM python:2-onbuild
+FROM python
 CMD [ "python", "./application.py" ]
